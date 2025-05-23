@@ -35,6 +35,8 @@ main_stars = {
     "七殺": 2,
     "天梁": 2,
     "武曲": 2,
+    "巨門": 1,
+    "天相": 1,
 }
 
 st.markdown("<h2 style='font-size:18px;'>1️⃣ 勾選這些宮位中的主星</h2>", unsafe_allow_html=True)
