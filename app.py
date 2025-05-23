@@ -19,6 +19,11 @@ st.markdown("""
 - 📊 勾選完畢後，系統將預測你的命定罩杯！
 """, unsafe_allow_html=True)
 
+> 本工具為娛樂用途，由「**大悅老師**」原創發想  
+> 出處： [YouTube 影片連結](https://www.youtube.com/watch?v=-s7LXSS6wKo&list=PLJL36iDIoC2w3DEZKelNPzdt4D2-pRsZ-&index=1)  
+> 貼心叮嚀：準了不要太驚訝，沒中也別揍我嘿～*
+
+
 # ===== 主星區 =====
 main_stars = {
     "太陽": 4,
