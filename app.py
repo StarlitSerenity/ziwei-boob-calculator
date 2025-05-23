@@ -20,15 +20,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ===== 溫馨說明區（一般文字版） =====
-st.markdown("""
----  
-📌 **本工具為娛樂用途**，靈感來自 **大悅老師** 的趣味發想。  
-🔗 出處：[YouTube 影片連結](https://www.youtube.com/watch?v=-s7LXSS6wKo&list=PLJL36iDIoC2w3DEZKelNPzdt4D2-pRsZ-&index=1)  
-💡 *貼心叮嚀：準了不要太驚訝，沒中也別揍我嘿～*
-""")
-
-
 
 # ===== 主星區 =====
 main_stars = {
@@ -87,3 +78,13 @@ if st.button("✨ 計算結果"):
     st.write(f"加分：+{bonus}，扣分：-{penalty}")
     st.write(f"最終數值：{total_score}")
     st.success(f"🔮 紫微罩杯預測結果：**{final_result}**\n\n💬 **命盤解語：** {comment}")
+
+
+# ===== 溫馨說明區（一般文字版） =====
+st.markdown("""
+---  
+📌 **本工具為娛樂用途**，靈感來自 **大悅老師** 的趣味發想。  
+🔗 出處：[YouTube 影片連結](https://www.youtube.com/watch?v=-s7LXSS6wKo&list=PLJL36iDIoC2w3DEZKelNPzdt4D2-pRsZ-&index=1)  
+💡 *貼心叮嚀：準了不要太驚訝，沒中也別揍我嘿～*
+""")
+
