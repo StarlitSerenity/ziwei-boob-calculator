@@ -19,16 +19,15 @@ st.markdown("""
 - 📊 勾選完畢後，系統將預測你的命定罩杯！
 """, unsafe_allow_html=True)
 
-# ===== 聲明區塊 =====
-st.markdown("""
-<hr style="margin-top:30px; margin-bottom:10px;"/>
 
-<div style="background-color:#f9f9f9; padding:15px; border-left:4px solid #ccc; border-radius:5px; font-size:14px;">
-  <p>📣 <strong>本工具為娛樂用途</strong>，由 <strong>大悅老師</strong> 原創發想</p>
-  <p>📺 出處：<a href="https://www.youtube.com/watch?v=-s7LXSS6wKo&list=PLJL36iDIoC2w3DEZKelNPzdt4D2-pRsZ-&index=1" target="_blank">YouTube 影片連結</a></p>
-  <p>💬 <em>貼心叮嚀：準了不要太驚訝，沒中也別揍我嘿～*</em></p>
-</div>
-""", unsafe_allow_html=True)
+# ===== 溫馨說明區（一般文字版） =====
+st.markdown("""
+---  
+📌 **本工具為娛樂用途**，靈感來自 **大悅老師** 的趣味發想。  
+🔗 出處：[YouTube 影片連結](https://www.youtube.com/watch?v=-s7LXSS6wKo&list=PLJL36iDIoC2w3DEZKelNPzdt4D2-pRsZ-&index=1)  
+💡 *貼心叮嚀：準了不要太驚訝，沒中也別揍我嘿～*
+""")
+
 
 
 # ===== 主星區 =====
