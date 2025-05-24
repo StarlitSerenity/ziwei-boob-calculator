@@ -3,8 +3,8 @@ import streamlit as st
 # ===== 美化標題區 =====
 st.markdown("""
 <div style="background-color:#f0f0ff; padding:20px; border-radius:10px; text-align:center;">
-  <h1 style="font-size:26px; font-weight:bold; color:#4B0082;">🔮 『罩』得住的命盤？</h1>
-  <p style="font-size:14px; color:gray; margin-top:-10px;">✨ 紫微斗數解析你的 Cup 運！ ✨</p>
+  <h1 style="font-size:28px; font-weight:bold; color:#4B0082;">🔮 『罩』得住的命盤？</h1>
+  <p style="font-size:16px; color:gray; margin-top:-10px;">✨ 紫微斗數解析你的 Cup 運！ ✨</p>
 </div>
 """, unsafe_allow_html=True)
 
